@@ -1,0 +1,13 @@
+#!/sbin/sh
+
+#
+# TODO: support rec install
+#
+
+outfd_="$2"
+ui_print_() {
+  echo -e "ui_print $1\nui_print" >> /proc/self/fd/"$outfd_"
+}
+
+ui_print_ 'Installing this module from recovery mode is currently not implemented, please use your Root manager app when in normal boot.'
+exit 1

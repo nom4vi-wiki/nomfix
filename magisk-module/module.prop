@@ -1,0 +1,6 @@
+id=nomfix
+name=Nôm font fix
+version=0.3
+versionCode=1
+author=cl
+description=👾 Reboot pending | Inject the missing Vietnamese fonts into /system/fonts and /system/etc/font_fallback.xml, no mount RW
